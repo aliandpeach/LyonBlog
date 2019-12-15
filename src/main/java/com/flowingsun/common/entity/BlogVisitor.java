@@ -19,7 +19,7 @@ public class BlogVisitor {
 
     private String targeturl;
 
-    private Date datetime;
+    private Date datetime = new Date();
 
     public Long getId() {
         return id;

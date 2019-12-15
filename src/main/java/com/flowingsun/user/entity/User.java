@@ -4,6 +4,7 @@ import java.io.Serializable;
 import java.util.List;
 
 public class User implements Serializable {
+    private static final long serialVersionUID = 5695365944869086088L;
     private Long id;
 
     private String telephone;

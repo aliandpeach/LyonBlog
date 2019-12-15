@@ -85,7 +85,7 @@
       #{userpass,jdbcType=VARCHAR},
       #{salt,jdbcType=VARCHAR})
   </insert>
-  <insert id="insertSelective" >
+  <insert id="insertSelective" parameterType="com.flowingsun.user.entity.User">
     insert into blog_user
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="id != null" >
